@@ -1,0 +1,103 @@
+.contact--container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c77048665aa9e6be7b79e71f39a26697&auto=format&fit=crop&w=1500&q=80");
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-position-y: -100px;
+
+  background-repeat: no-repeat;
+  transition: all ease-in-out 0.3s;
+}
+
+.contact--container__child {
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.contact--container__top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  height: 75%;
+}
+
+.contact--container__bottom {
+  height: 25%;
+}
+
+.contact--container--top__left {
+  width: 60%;
+  background: #e91e63;
+  display: flex;
+  color: #fff;
+  border-radius: 3px 0 0 0;
+}
+
+.contact--container--top__left p {
+  align-self: center;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 5px;
+  width: 100%;
+}
+
+.contact--container--top__right {
+  width: 100%;
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.side-chick {
+  padding-left: 10px;
+}
+
+.side-chick li {
+  padding: 5px 0;
+  display: inline-block;
+  list-style-type: none;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.side-chick li span {
+  display: inline-block;
+  /* padding-left: 10px; */
+  font-family: "Roboto Mono", monospace;
+}
+
+.side-chick__bottom {
+  margin: 40px 60px;
+  width: 80%;
+}
+
+.side-chick__bottom li {
+  display: inline-block;
+  margin: 0 auto;
+  width: 12.5%;
+  padding: 5px;
+}
+
+.side-chick__bottom li a {
+  text-decoration: none;
+  color: black;
+  transition: all ease-in-out 0.3s;
+}
+
+.side-chick__bottom li a:hover {
+  text-decoration: none;
+  color: #1e1e1e;
+}
